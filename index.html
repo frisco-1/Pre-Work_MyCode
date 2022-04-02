@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Light and Sound Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Repeat the pattern back to win the game!
+    </p>
+    
+    <input type="button" value="Start"  id="button" class="button" />
+    
+    
+    <!--Sqaures      -->
+    <div class="flex-container">
+      <div onclick="panelClicked(event.currentTarget)" id= "green" class="box">
+      
+      </div>
+      <div onclick="panelClicked(event.currentTarget)" id = "blue" class="box">
+      
+      </div>
+      <div onclick="panelClicked(event.currentTarget)" id = "red" class="box">
+      
+      </div>
+      <div onclick="panelClicked(event.currentTarget)" id="yellow" class="box">
+      
+      </div>
+    </div>
+    
+  </body>
+</html>
